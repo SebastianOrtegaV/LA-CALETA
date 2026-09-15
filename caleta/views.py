@@ -36,7 +36,7 @@ def catalogo(request, cat):
 
     data = {
         'catalogo':cat,
-        'platos': platos.get(cat, [])
+        'platos': platos.get(cat, []),
     }
     
     
